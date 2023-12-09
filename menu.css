@@ -60,6 +60,9 @@ nav ul li {
   font-size: 22px;
 }
 
-.price {
-  margin-top: 60px;
+footer {
+  margin-top: 80px;
+  color: white;
+  height: 100px;
+  background-color: rgb(24, 23, 23);
 }
