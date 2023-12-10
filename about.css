@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 200px;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 12px 15px;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: white;
+  color: black;
+}
+
+nav {
+  background-color: rgb(24, 23, 23);
+  padding: 17px;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+footer {
+  margin-top: 80px;
+  color: white;
+  height: 100px;
+  background-color: rgb(24, 23, 23);
+}
